@@ -272,7 +272,7 @@ void loop(void)
     ConsoWh = "Conso (kWh)";          //
   };
     myGLCD.setFont(MediumNumbers);
-  myGLCD.printNumI(nrf,.power /2, LEFT, 28);
+  myGLCD.printNumI(nrf.power /2, LEFT, 28);
   myGLCD.printNumF(Conso_cumu,2, 36,5 );
   myGLCD.setFont(TinyFont);
   myGLCD.print("mutualab.org", 37, 39); //Some advert for our association :)

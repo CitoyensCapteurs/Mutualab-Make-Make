@@ -254,7 +254,8 @@ void loop(void)
   {
     myGLCD.drawLine(i , 20, i, 20 - map(valeurs[i], 0, 300, 0, 20));
   }
- 
+  ConsoW = "Conso (W)";
+  ConsoWh = "Conso (Wh)";
   //Display of the screen
   myGLCD.setFont(TinyFont);
   myGLCD.print(ConsoW, 0, 22);
